@@ -1,10 +1,9 @@
-n = input()
-n1 = n.split()
+# cook your dish here
+x,y = [int(a) for a in input().split()]
 
-x = int(n1[0])
-y = int(n1[1])
-
-if x < y:
-    print("YES")
+if(x < y):
+    print("Yes")
 else:
-    print("NO")
+    print("No")
+    
+    
